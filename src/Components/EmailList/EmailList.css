@@ -1,0 +1,121 @@
+.emailList {
+  flex: 0.8;
+  overflow-y: scroll;
+  height: 100vh;
+  margin-left: 10px;
+}
+.emailList__settings {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  padding: 10px;
+  background-color: white;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.emailList__settingsLeft > .MuiIconButton-root {
+  padding: 8px;
+}
+.emailList__settingsRight > .MuiIconButton-root {
+  padding: 8px;
+}
+
+.emailList__sections {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: white;
+  padding: 10px;
+  overflow: scroll;
+  border-bottom: 1px solid lightgray;
+}
+
+.emailList__sections::-webkit-scrollbar {
+  display: none;
+}
+
+.emailList__sections. {
+  -ms-overflow-style: none; /* IE 11 */
+  scrollbar-width: none; /* Firefox 64 */
+}
+
+.emailList__option {
+  cursor: pointer;
+  padding: 18px 8px;
+  padding-right: 100px;
+  margin-right: 5px;
+  padding-left: 17px;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
+}
+.emailList__option:hover {
+  background-color: #eeeeee;
+  color: rgb(59, 59, 59);
+}
+.emailList__sectionPrimary {
+  display: flex;
+  align-items: center;
+  color: gray;
+  position: relative;
+}
+.emailList__sectionPrimary > h4 {
+  margin-left: 15px;
+}
+.emailList__sectionPrimary::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(218, 52, 52);
+  height: 4px;
+  width: 95%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  bottom: 0px;
+  left: 0;
+}
+.emailList__sectionSocial {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+.emailList__sectionSocial > h4 {
+  margin-left: 15px;
+}
+.emailList__sectionPromotions > h4 {
+  margin-left: 15px;
+}
+.emailList__sectionSocial > p {
+  background-color: #1a73e8;
+  padding: 0 10px;
+  color: white;
+  margin-left: 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  font-size: 14px;
+}
+.emailList__sectionPromotions {
+  display: flex;
+  align-items: center;
+  color: gray;
+}
+
+.emailList__sectionPromotions > p {
+  background-color: #188038;
+  padding: 0 10px;
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}

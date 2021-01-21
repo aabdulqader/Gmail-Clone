@@ -1,0 +1,112 @@
+.mail {
+  flex: 0.8;
+  margin-left: 15px;
+}
+
+.mail__tools {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+  overflow: scroll;
+}
+
+.mail__tools::-webkit-scrollbar {
+  display: none;
+}
+
+.mail__tools. {
+  -ms-overflow-style: none; /* IE 11 */
+  scrollbar-width: none; /* Firefox 64 */
+}
+
+.mail__toolsLeft {
+  display: flex;
+  align-items: center;
+}
+
+.emailList__settingsRight > .MuiIconButton-root {
+  padding: 8px;
+}
+
+.mail__icons {
+  border-right: 1px solid lightgray;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.mail__icons:last-child {
+  border: none;
+}
+
+.mail__body {
+  padding-right: 20px;
+  margin-bottom: 60px;
+}
+
+.mail__subject {
+  margin: 20px 85px;
+  font-weight: 600;
+}
+
+.mail__details {
+  display: flex;
+  margin-top: 20px;
+}
+
+.mail__avatar {
+  width: 55px !important;
+  height: 55px !important;
+  margin-right: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.mail__info {
+  flex: 1;
+}
+
+.mail__detailsTop {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mail__detailsTop > h3 {
+  color: rgb(41, 41, 41);
+  font-weight: 600;
+}
+.mail__detailsTop > h3:hover {
+  text-decoration: underline;
+}
+.mail__detailsTop > small {
+  color: rgb(99, 99, 99);
+}
+.mail__sender {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: rgb(88, 88, 88);
+}
+.mail__sender:hover {
+  text-decoration: underline;
+}
+
+.mail__message {
+  margin: 20px 0;
+}
+
+.mail__buttons {
+  margin-left: 85px;
+  margin-top: 20px;
+}
+.mail__button {
+  border: 1px solid rgb(165, 165, 165) !important ;
+  color: rgb(90, 90, 90) !important;
+  text-transform: capitalize !important;
+  margin-right: 10px !important;
+  height: 40px !important;
+  padding: 0 20px !important;
+  font-weight: 700 !important;
+}
